@@ -1,3 +1,3 @@
-# abgabe-01
+# abgabe-03
 
-Das ist die erste Abgabe der Übung EMM
+Dritte Abgabe der Übung EMM. Es geht um die Verwendung von ARCore / ARKit um Images mithilfe des Handycameras zu tracken

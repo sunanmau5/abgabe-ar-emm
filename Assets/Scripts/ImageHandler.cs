@@ -24,7 +24,7 @@ public class ImageHandler : MonoBehaviour
     {
         foreach (var trackedImage in eventArgs.added)
         {
-            var minLocalScalar = Mathf.Min(trackedImage.size.x, trackedImage.size.y) / 2;
+            var minLocalScalar = Mathf.Min(trackedImage.size.x, trackedImage.size.y) / 9;
             trackedImage.transform.localScale = new Vector3(minLocalScalar, minLocalScalar, minLocalScalar);
             _content.transform.parent = trackedImage.transform;
             _content.transform.localScale = Vector3.one;
